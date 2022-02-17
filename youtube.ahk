@@ -30,7 +30,7 @@ return
 F10::
 MouseClick					; Click on the ... button of the video (user has to put the mouse there first)
 Sleep 100
-MouseMove, 50, 170, 0, R	; Move the mouse on the "I don't like this video" menu option.
+MouseMove, 50, 170, 0, R	; Move the mouse on the "Not interested" menu option.
 Sleep 100
 MouseClick					; Click on it.
 Sleep 100
@@ -40,7 +40,7 @@ MouseClick					; Click on it.
 Sleep 100
 Send {Tab}
 Sleep 100
-Send {Tab}					; Tab towards the "Not interested" option.
+Send {Tab}					; Tab towards the "I don't like this video" option.
 Sleep 100
 Send {Space}				; Select the option.
 Sleep 100
