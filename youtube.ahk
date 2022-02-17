@@ -15,9 +15,14 @@ Sleep 100
 MouseClick					; Click on it.
 Sleep 100
 Send {Tab}					; Tab towards the "I've already watched the video" option.
+Sleep 100
 Send {Space}				; Select the option.
+Sleep 100
 Send {Tab}
+Sleep 100
 Send {Tab}
+Sleep 100
 Send {Tab}					; Tab to the Submit button.
+Sleep 100
 Send {Enter}				; Submit it.
 return
